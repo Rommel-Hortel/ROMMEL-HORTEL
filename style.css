@@ -1,0 +1,60 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+body{
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('pasmo.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #ADFF2F	;
+}
+.registration-form{
+    position: absolute;
+    center: 20%;
+    transform: translate(-50, -50%);
+    width: 400px;
+}
+.registration-form h1{
+    font-size: 15px;
+    font-weight: bold; 
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+.registration-form p{
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.registration-form button{ 
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
